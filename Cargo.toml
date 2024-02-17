@@ -1,0 +1,24 @@
+[package]
+name = "lcp"
+version = "0.1.0"
+authors = ["Sohum Mendon <smendon@proton.me>"]
+description = "Find the longest common prefix between two strings."
+
+edition = "2021"
+
+readme = true
+repository = "https://github.com/ssmendon/lcp-rs"
+homepage = "https://github.com/ssmendon/lcp-rs"
+license = "MIT"
+
+keywords = ["longest-common-prefix"]
+categories = ["no-std::no-alloc"]
+
+[profile.release-strip]
+inherits = "release"
+strip = true
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
